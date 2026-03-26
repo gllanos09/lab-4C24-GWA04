@@ -4,6 +4,6 @@
 
 public class StudentReport {
     public String getPassStatus(double grade) {
-        return (grade >= 60) ? "APROBADO" : "REPROBADO";
+        return (grade >= 13) ? "APROBADO" : "REPROBADO";
     }
 }

@@ -23,8 +23,8 @@ public class StudentController {
     public static void main(String[] args) {
         // Inicializamos los componentes
         StudentModel model = new StudentModel();
-        model.setName("Tu Nombre");
-        model.setGrade(85.0);
+        model.setName("Naruto Uzumaki");
+        model.setGrade(16.5);
 
         StudentView view = new StudentView();
         StudentReport report = new StudentReport();
