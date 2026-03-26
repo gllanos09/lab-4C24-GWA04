@@ -1,3 +1,6 @@
+//Alumno: Alexander Sanabria Martinez
+//Sección: C24A
+//Curso: Construcción y Prueba de Software 
 public class StudentModel {
 
     private int id;
