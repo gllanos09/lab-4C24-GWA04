@@ -5,10 +5,10 @@
 
 public class StudentController {
     private StudentModel model;
-    private StudentView view;
+    private StudentVista view;
     private StudentReport report;
 
-    public StudentController(StudentModel model, StudentView view, StudentReport report) {
+    public StudentController(StudentModel model, StudentVista view, StudentReport report) {
         this.model = model;
         this.view = view;
         this.report = report;
@@ -26,7 +26,7 @@ public class StudentController {
         model.setName("Naruto Uzumaki");
         model.setGrade(16.5);
 
-        StudentView view = new StudentView();
+        StudentVista view = new StudentVista();
         StudentReport report = new StudentReport();
 
         // Creamos el controlador y ejecutamos
